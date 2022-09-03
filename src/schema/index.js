@@ -6,9 +6,9 @@ const typeDefs = gql`
     id: ID
     profileImageUrl: String
     profileUrl: String
-    folowers: [User]
+    followers: [User]
     following: [User]
-    repos: [repo]
+    repos: [Repo]
     name: String
     company: String
     blog: String
@@ -37,7 +37,7 @@ const typeDefs = gql`
     License: String
   }
   type Query {
-    user(username String!): User
+    user(username: String!): User
   }
 `;
 
