@@ -1,0 +1,29 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamiElsayed/graphQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamiElsayed/graphQL/issues"
+  },
+  "homepage": "https://github.com/RamiElsayed/graphQL#readme",
+  "dependencies": {
+    "apollo-server": "^3.10.2",
+    "axios": "^0.27.2",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
